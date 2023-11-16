@@ -1,0 +1,15 @@
+@import './base.css';
+
+#app {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+
+
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 72px 1fr 100px;
+}
